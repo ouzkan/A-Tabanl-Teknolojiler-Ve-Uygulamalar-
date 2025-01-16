@@ -1,0 +1,97 @@
+﻿@model IEnumerable<dynamic>
+
+<style>
+    .countries-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .country-card {
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+        aspect-ratio: 16/9;
+    }
+
+    .country-card:hover {
+        transform: scale(1.05);
+    }
+
+    .country-image-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .country-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .country-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background 0.3s ease;
+    }
+
+    .country-card:hover .country-overlay {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .country-name {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 1rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+</style>
+
+<div class="countries-container">
+    @foreach (var country in Model)
+    {
+        <a href="@Url.Action("Details", "Home", new { id = country.Country.Id })" class="country-card">
+            <div class="country-image-wrapper">
+                @if (country.FirstImage != null && !string.IsNullOrEmpty(country.FirstImage.ImagePath))
+                {
+                    <img src="@Url.Content("~/img/" + country.FirstImage.ImagePath)" 
+                         alt="@country.Country.CountryName Görseli" 
+                         class="country-image" />
+                }
+                else
+                {
+                    <img src="@Url.Content("~/img/default.jpg")" 
+                         alt="Varsayılan Görsel" 
+                         class="country-image" />
+                }
+                <div class="country-overlay">
+                    <span class="country-name">@country.Country.CountryName</span>
+                </div>
+            </div>
+        </a>
+    }
+</div>
+
+<footer class="footer text-center">
+    <p>Copyright © 2025. Tüm hakları saklıdır.</p>
+    <p>İletişim İçin</p>
+    <div class="d-flex justify-content-center mt-3">
+        <a href="#" class="socialMedia mx-3"><img src="~/img/email.png" alt="Email"></a>
+        <a href="#" class="socialMedia mx-3"><img src="~/img/tiktok.png" alt="TikTok"></a>
+        <a href="#" class="socialMedia mx-3"><img src="~/img/instagram.png" alt="Instagram"></a>
+        <a href="#" class="socialMedia mx-3"><img src="~/img/twitter.png" alt="Twitter"></a>
+    </div>
+</footer>

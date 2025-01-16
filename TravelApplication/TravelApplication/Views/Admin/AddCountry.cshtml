@@ -1,0 +1,17 @@
+﻿@model TravelApplication.Models.CountryViewModel
+
+<form asp-action="AddCountry" method="post">
+    <div class="form-group">
+        <label for="CountryName">Ülke Adı</label>
+        <input type="text" id="CountryName" name="CountryName" class="form-control" placeholder="örn: Japonya" />
+        @Html.ValidationMessageFor(model => model.CountryName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="CountryDescription">Ülke Açıklaması</label>
+        <textarea id="CountryDescription" name="CountryDescription" class="form-control" rows="5"></textarea>
+        @Html.ValidationMessageFor(model => model.CountryDescription, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

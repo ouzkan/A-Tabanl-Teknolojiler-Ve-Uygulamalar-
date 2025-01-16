@@ -1,0 +1,240 @@
+@model TravelApplication.Models.Country_Name
+
+<style>
+    .country-detail-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .country-header {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .main-title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 2rem;
+    }
+
+    .content-section {
+        margin-bottom: 3rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        color: #2c3e50;
+        margin: 2rem 0 1rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #4caf50;
+    }
+
+    .subsection-title {
+        font-size: 1.5rem;
+        color: #2c3e50;
+        margin: 1.5rem 0 1rem 0;
+    }
+
+    .content-text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #333;
+        text-align: justify;
+        margin-bottom: 1.5rem;
+    }
+
+    .info-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .info-list li {
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .place-card {
+        margin-bottom: 4rem;
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .place-image {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .place-content {
+        padding: 2rem;
+    }
+
+    .bold-text {
+        font-weight: bold;
+    }
+
+    @@media (max-width: 768px) {
+        .country-detail-container {
+            padding: 1rem;
+        }
+
+        .place-image {
+            height: 300px;
+        }
+    }
+</style>
+
+<div class="country-detail-container">
+    <div class="country-header">
+        <h1 class="main-title">@Model.CountryName</h1>
+    </div>
+
+    <div class="content-section">
+        <div class="content-text">
+            @{
+                var description = Model.CountryDescription;
+                var sections = description.Split("###").Select(s => s.Trim()).Where(s => !string.IsNullOrEmpty(s));
+
+                foreach (var section in sections)
+                {
+                    if (section.Contains(":"))
+                    {
+                        var parts = section.Split(":", 2);
+                        <h2 class="section-title">@parts[0]</h2>
+                        
+                        if (parts[1].Contains("-"))
+                        {
+                            <ul class="info-list">
+                                @foreach (var item in parts[1].Split("-").Where(i => !string.IsNullOrEmpty(i)))
+                                {
+                                    <li>@Html.Raw(FormatMarkdown(item))</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p class="content-text">@Html.Raw(FormatMarkdown(parts[1]))</p>
+                        }
+                    }
+                    else
+                    {
+                        <p class="content-text">@Html.Raw(FormatMarkdown(section))</p>
+                    }
+                }
+            }
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2 class="section-title">Gezilecek Yerler</h2>
+        @foreach (var image in Model.Country_Images.Skip(1))
+        {
+            <div class="place-card">
+                <img src="@Url.Content("~/img/" + image.ImagePath)" 
+                     alt="@Model.CountryName - @image.ImageName" 
+                     class="place-image">
+                <div class="place-content">
+                    <h3 class="subsection-title">@image.ImageName</h3>
+                    <div class="content-text">@Html.Raw(FormatMarkdown(image.ImageDescription))</div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@functions {
+    private string FormatMarkdown(string text)
+    {
+        if (string.IsNullOrEmpty(text)) return "";
+        
+        // Başlıkları dönüştür (h1'den h6'ya kadar)
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^# (.*?)$", "<h1>$1</h1>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^## (.*?)$", "<h2>$1</h2>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^### (.*?)$", "<h3>$1</h3>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^#### (.*?)$", "<h4>$1</h4>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^##### (.*?)$", "<h5>$1</h5>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^###### (.*?)$", "<h6>$1</h6>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        
+        // Kalın metinleri dönüştür
+        var boldParts = text.Split("**");
+        for (var i = 0; i < boldParts.Length; i++)
+        {
+            if (i % 2 == 1)
+            {
+                boldParts[i] = $"<strong>{boldParts[i]}</strong>";
+            }
+        }
+        text = string.Join("", boldParts);
+        
+        // İtalik metinleri dönüştür
+        var italicParts = text.Split("*");
+        for (var i = 0; i < italicParts.Length; i++)
+        {
+            if (i % 2 == 1)
+            {
+                italicParts[i] = $"<em>{italicParts[i]}</em>";
+            }
+        }
+        text = string.Join("", italicParts);
+        
+        // Listeleri dönüştür
+        var lines = text.Split('\n');
+        var inList = false;
+        var processedLines = new List<string>();
+
+        foreach (var line in lines)
+        {
+            if (line.TrimStart().StartsWith("- "))
+            {
+                if (!inList)
+                {
+                    processedLines.Add("<ul>");
+                    inList = true;
+                }
+                processedLines.Add($"<li>{line.TrimStart('-').Trim()}</li>");
+            }
+            else
+            {
+                if (inList)
+                {
+                    processedLines.Add("</ul>");
+                    inList = false;
+                }
+                processedLines.Add(line);
+            }
+        }
+        if (inList)
+        {
+            processedLines.Add("</ul>");
+        }
+        text = string.Join("\n", processedLines);
+        
+        // Yatay çizgileri dönüştür
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"^---+$", "<hr>", System.Text.RegularExpressions.RegexOptions.Multiline);
+        
+        // Bağlantıları dönüştür
+        text = System.Text.RegularExpressions.Regex.Replace(text, @"\[(.*?)\]\((.*?)\)", "<a href=\"$2\">$1</a>");
+        
+        // Paragrafları dönüştür
+        if (!text.StartsWith("<") && !string.IsNullOrWhiteSpace(text))
+        {
+            text = "<p>" + text + "</p>";
+        }
+        
+        return text;
+    }
+}
+
+<footer class="footer text-center">
+    <p>Copyright © 2025. Tüm hakları saklıdır.</p>
+    <p>İletişim İçin</p>
+    <div class="d-flex justify-content-center mt-3">
+        <a href="#" class="socialMedia mx-3"><img src="~/img/email.png" alt="Email"></a>
+        <a href="#" class="socialMedia mx-3"><img src="~/img/tiktok.png" alt="TikTok"></a>
+        <a href="#" class="socialMedia mx-3"><img src="~/img/instagram.png" alt="Instagram"></a>
+        <a href="#" class="socialMedia mx-3"><img src="~/img/twitter.png" alt="Twitter"></a>
+    </div>
+</footer>

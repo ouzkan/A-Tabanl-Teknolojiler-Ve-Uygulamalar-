@@ -1,0 +1,190 @@
+﻿@section Styles{
+      <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background: linear-gradient(90deg, #4caf50, #8bc34a);
+      padding: 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .about-section {
+      padding: 4rem 2rem;
+    }
+
+    .about-section .headingText {
+      font-size: 2rem;
+      color: #663399;
+      font-weight: bold;
+    }
+
+    .about-section p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.8;
+    }
+
+    .services {
+      padding: 4rem 2rem;
+      background-color: #f9f9f9;
+    }
+
+    .services .service-item {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .services .service-item img {
+      width: 80px;
+      margin-bottom: 1rem;
+    }
+
+    .services .service-item h4 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #4caf50;
+    }
+
+    .destinations {
+      padding: 4rem 2rem;
+    }
+
+    .destinations .card img {
+      border-radius: 10px;
+    }
+
+    .testimonials {
+      padding: 4rem 2rem;
+      background-color: #663399;
+      color: white;
+      text-align: center;
+    }
+
+    .testimonials .carousel-item {
+      padding: 2rem;
+    }
+
+    .footer {
+      background: #4caf50;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  </style>
+}  
+
+<div class="header">
+    <h1>Hayallerinizdeki Yolculuğa Çıkın!</h1>
+    <p>En uygun fiyatlarla dünyayı keşfedin.</p>
+  </div>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <h2 class="headingText">Hakkımızda</h2>
+    <p>"Biz, seyahat tutkunlarını hayallerindeki yolculuklarla buluşturmayı hedefleyen bir ekibiz. Seyahat etmeyi bir deneyimden öte, bir yaşam tarzı olarak görüyoruz. Kullanıcı dostu platformumuzda her detayı sizin için düşündük."</p>
+  </div>
+
+  <!-- Services -->
+  <div class="services">
+    <div class="container">
+      <h2 class="text-center mb-5">Hizmetlerimiz</h2>
+      <div class="row">
+        <div class="col-md-4 service-item">
+          <h4>Uygun Fiyatlar</h4>
+          <p>En ekonomik tatil seçenekleri.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <h4>Rehberli Turlar</h4>
+          <p>Profesyonel rehberlerle eşsiz deneyimler.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <h4>Lüks Oteller</h4>
+          <p>Konforlu ve unutulmaz konaklamalar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Destinations -->
+  <div class="destinations">
+    <div class="container">
+      <h2 class="text-center mb-5">Popüler Destinasyonlar</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="~/img/dubai.jpeg" class="card-img-top" alt="Dubai">
+            <div class="card-body">
+              <h5 class="card-title">Dubai</h5>
+              <p class="card-text">Modern mimarisiyle ünlü eşsiz bir şehir.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="~/img/paris.jpeg" class="card-img-top" alt="Paris">
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text">Aşkın ve sanatın şehri.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="~/img/tokyo.jpeg" class="card-img-top" alt="Tokyo">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo</h5>
+              <p class="card-text">Gelenek ve modernliğin buluştuğu başkent.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="testimonials">
+    <h2>Kullanıcı Yorumları</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p>"Bu site sayesinde hayallerimdeki Japonya tatilini gerçekleştirdim!"</p>
+        </div>
+        <div class="carousel-item">
+          <p>"Ailemle birlikte unutulmaz bir seyahat deneyimi yaşadık."</p>
+        </div>
+        <div class="carousel-item">
+          <p>"Her şey çok profesyoneldi ve tam zamanında organize edildi."</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Copyright © 2025. Tüm hakları saklıdır.</p>
+  </div>

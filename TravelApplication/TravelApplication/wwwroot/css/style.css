@@ -1,0 +1,37 @@
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.carouselButtonCss {
+    background-color: #ff5722;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.carouselButtonCss:hover {
+    background-color: #e64a19;
+}
+
+.footer {
+    background:#4caf50;
+    color: white;
+    padding: 20px 0;
+}
+
+    .footer p {
+        margin: 0;
+    }
+
+.socialMedia img {
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+
+    .socialMedia img:hover {
+        transform: scale(1.2);
+    }

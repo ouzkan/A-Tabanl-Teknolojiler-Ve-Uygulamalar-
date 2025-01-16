@@ -1,0 +1,37 @@
+﻿@model TravelApplication.Models.Country_Image
+
+<h2>Ülkelere Gezilebilecek Yerler Ekle</h2>
+
+<form asp-action="AddImages" asp-controller="Admin" method="post">
+    <div class="form-group">
+        <label for="ImagePath">Resim Yolu</label>
+        <input type="text" id="ImagePath" name="ImagePath" class="form-control" placeholder="örn: /images/sample.jpg" />
+        @Html.ValidationMessageFor(model => model.ImagePath, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="ImageDescription">Resim Açıklaması</label>
+        <textarea id="ImageDescription" name="ImageDescription" class="form-control" rows="3"></textarea>
+        @Html.ValidationMessageFor(model => model.ImageDescription, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="ImageName">Resim Adı</label>
+        <input type="text" id="ImageName" name="ImageName" class="form-control" placeholder="örn: Eşsiz Manzara" />
+        @Html.ValidationMessageFor(model => model.ImageName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="CountryId">Ülke</label>
+        <select id="CountryId" name="CountryId" class="form-control">
+            <option value="">Ülke Seçiniz</option>
+            @foreach (var country in ViewBag.Countries)
+            {
+                <option value="@country.Id">@country.CountryName</option>
+            }
+        </select>
+        @Html.ValidationMessageFor(model => model.CountryId, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>
