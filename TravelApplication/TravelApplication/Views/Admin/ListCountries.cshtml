@@ -1,0 +1,49 @@
+@model IEnumerable<TravelApplication.Models.Country_Name>
+
+<div class="container mt-4">
+    <h2 class="mb-4">Ülkeler ve Görselleri</h2>
+
+    @foreach (var country in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3>@country.CountryName</h3>
+            </div>
+            <div class="card-body">
+                @if (!country.Country_Images.Any())
+                {
+                    <p class="text-warning">Bu ülkeye ait görsel bulunmamaktadır.</p>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Görsel Adı</th>
+                                    <th>Görsel Yolu</th>
+                                    <th>Önizleme</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var image in country.Country_Images)
+                                {
+                                    <tr>
+                                        <td>@image.ImageName</td>
+                                        <td>@image.ImagePath</td>
+                                        <td>
+                                            <img src="@Url.Content("~/img/" + image.ImagePath)" 
+                                                 alt="@image.ImageName"
+                                                 style="max-height: 100px; max-width: 150px;"
+                                                 class="img-thumbnail" />
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div> 

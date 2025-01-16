@@ -1,7 +1,75 @@
-﻿
+﻿@model IEnumerable<TravelApplication.Models.Country_Name>
 
-<div>
-		<p>Yapabileceklerin</p>
-		<a href="/Admin/AddCountry" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Ülke Ekle</a>
-		<a href="/Admin/AddImages" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Ülkelere Gezilebilecek Yerler Ekle</a>
+<div class="container">
+	<div class="mb-4">
+		<h3>Yönetim İşlemleri</h3>
+		<div class="d-flex gap-2">
+			<a href="/Admin/AddCountry" class="btn btn-primary btn-lg" role="button">Ülke Ekle</a>
+			<a href="/Admin/AddImages" class="btn btn-primary btn-lg" role="button">Ülkelere Gezilebilecek Yerler Ekle</a>
+		</div>
+	</div>
+
+	<div class="mt-5">
+		<h2 class="mb-4">Mevcut Ülkeler ve Görselleri</h2>
+
+		@foreach (var country in Model)
+		{
+			<div class="card mb-4">
+				<div class="card-header d-flex justify-content-between align-items-center">
+					<h3>@country.CountryName</h3>
+					<form asp-action="DeleteCountry" asp-route-id="@country.Id" method="post" 
+						  onsubmit="return confirm('[@country.CountryName] ülkesini ve tüm görsellerini silmek istediğinizden emin misiniz?');">
+						<button type="submit" class="btn btn-danger">
+							<i class="fas fa-trash"></i> Ülkeyi Sil
+						</button>
+					</form>
+				</div>
+				<div class="card-body">
+					@if (!country.Country_Images.Any())
+					{
+						<p class="text-warning">Bu ülkeye ait görsel bulunmamaktadır.</p>
+					}
+					else
+					{
+						<div class="table-responsive">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>Görsel Adı</th>
+										<th>Görsel Yolu</th>
+										<th>Önizleme</th>
+										<th>İşlemler</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var image in country.Country_Images)
+									{
+										<tr>
+											<td>@image.ImageName</td>
+											<td>@image.ImagePath</td>
+											<td>
+												<img src="@Url.Content("~/img/" + image.ImagePath)" 
+													 alt="@image.ImageName"
+													 style="max-height: 100px; max-width: 150px;"
+													 class="img-thumbnail" />
+											</td>
+											<td>
+												<form asp-action="DeleteImage" asp-route-id="@image.Id" method="post" 
+													  onsubmit="return confirm('Bu görseli silmek istediğinizden emin misiniz?');"
+													  style="display: inline;">
+													<button type="submit" class="btn btn-danger btn-sm">
+														<i class="fas fa-trash"></i> Görseli Sil
+													</button>
+												</form>
+											</td>
+										</tr>
+									}
+								</tbody>
+							</table>
+						</div>
+					}
+				</div>
+			</div>
+		}
+	</div>
 </div>

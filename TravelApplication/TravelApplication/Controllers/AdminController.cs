@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TravelApplication.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace TravelApplication.Controllers
 {
@@ -16,7 +17,11 @@ namespace TravelApplication.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var countries = _context.Country_Names
+                .Include(c => c.Country_Images)
+                .ToList();
+            
+            return View(countries);
         }
 
         public IActionResult AddCountry()
@@ -82,7 +87,52 @@ Tırmanış sezonu Temmuz-Ağustos ayları arasındadır.";
             return RedirectToAction("Index");
         }
 
+        public IActionResult ListCountries()
+        {
+            var countries = _context.Country_Names
+                .Include(c => c.Country_Images)
+                .ToList();
+            
+            return View(countries);
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> DeleteCountry(int id)
+        {
+            var country = await _context.Country_Names
+                .Include(c => c.Country_Images)
+                .FirstOrDefaultAsync(c => c.Id == id);
+
+            if (country == null)
+            {
+                return NotFound();
+            }
+
+            // Önce ülkeye ait resimleri sil
+            _context.Country_Images.RemoveRange(country.Country_Images);
+            
+            // Sonra ülkeyi sil
+            _context.Country_Names.Remove(country);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteImage(int id)
+        {
+            var image = await _context.Country_Images.FindAsync(id);
+            
+            if (image == null)
+            {
+                return NotFound();
+            }
+
+            _context.Country_Images.Remove(image);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
 
     }
 

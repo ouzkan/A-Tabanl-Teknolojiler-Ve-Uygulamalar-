@@ -3307,11 +3307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\TravelApplication.csproj",
+      "projectUniqueName": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\TravelApplication.csproj",
       "projectName": "TravelApplication",
-      "projectPath": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\TravelApplication.csproj",
+      "projectPath": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\TravelApplication.csproj",
       "packagesPath": "C:\\Users\\oguz4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\",
+      "outputPath": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oguz4\\AppData\\Roaming\\NuGet\\NuGet.Config",

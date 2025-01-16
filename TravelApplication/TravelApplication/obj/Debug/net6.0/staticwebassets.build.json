@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v66JzjbUYS3iHtvvEtAo7L5fZkqt7uwWs1uCEDf40yw=",
+  "Hash": "RL+CMIPPu4US2K0DYA4exom4RT+jnAF0zyPZXx07tVw=",
   "Source": "TravelApplication",
   "BasePath": "_content/TravelApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TravelApplication\\wwwroot",
       "Source": "TravelApplication",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TravelApplication.styles.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TravelApplication.styles.css",
       "SourceId": "TravelApplication",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "TravelApplication.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TravelApplication.styles.css"
+      "OriginalItemSpec": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TravelApplication.styles.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TravelApplication.bundle.scp.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TravelApplication.bundle.scp.css",
       "SourceId": "TravelApplication",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "TravelApplication.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TravelApplication.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TravelApplication.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\css\\layout.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\css\\layout.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "css/layout.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\layout.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\css\\style.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\favicon.ico",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\dubai.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\dubai.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/dubai.jpeg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dubai.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\Dubai.webp",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\Dubai.webp",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/Dubai.webp",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Dubai.webp"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\email.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\email.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/email.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\email.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\englan2.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\englan2.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/englan2.jpeg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\englan2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\england1.jpg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\england1.jpg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/england1.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\england1.jpg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\england3.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\england3.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/england3.jpeg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\england3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\germany1.jpg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\germany1.jpg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/germany1.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\germany1.jpg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\holland.jpg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\holland.jpg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/holland.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\holland.jpg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\instagram.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\instagram.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/instagram.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\Japan.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\Japan.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/Japan.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Japan.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan1.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan1.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/japan1.jpeg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\japan1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan2.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan2.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/japan2.jpeg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\japan2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan3.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan3.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/japan3.jpeg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\japan3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan4.webp",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan4.webp",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/japan4.webp",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\japan4.webp"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan5.webp",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\japan5.webp",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/japan5.webp",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\japan5.webp"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\Norwey.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\Norwey.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/Norwey.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Norwey.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\paris.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\paris.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/paris.jpeg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\paris.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\switzerland.webp",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\switzerland.webp",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/switzerland.webp",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\switzerland.webp"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\tiktok.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\tiktok.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/tiktok.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tiktok.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\tokyo.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\tokyo.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/tokyo.jpeg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tokyo.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\travel.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\travel.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/travel.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\travel.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\turkey1.jpeg",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\turkey1.jpeg",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/turkey1.jpeg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\turkey1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\twitter.png",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\twitter.png",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/twitter.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\twitter.png"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\img\\usa1.webp",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\img\\usa1.webp",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "img/usa1.webp",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\usa1.webp"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\js\\site.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TravelApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\TravelApplication\\TravelApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oguz4\\Desktop\\Proje\\TravelApplication\\TravelApplication\\wwwroot\\",
       "BasePath": "_content/TravelApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
